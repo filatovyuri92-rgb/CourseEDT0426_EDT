@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c6efe4d-c5eb-4bfa-9e25-03e16959f2cc">
+  <producedTypes>
+    <objectType typeId="d9a40d4f-19bc-4c0d-95c2-c75cabeb5608" valueTypeId="c8ea4817-25b4-427c-8ef6-cd9d73dc8708"/>
+    <refType typeId="7720ddef-8837-4d85-bdaa-3318c0bfb135" valueTypeId="b9f4934a-fab9-4d6c-9b85-39d42f56c390"/>
+    <selectionType typeId="1e133c8a-90df-4d88-b0ea-d48bfe71c7e2" valueTypeId="46cf31d0-4e82-48a2-a66f-6c78ead0956a"/>
+    <listType typeId="b7a7f549-c985-4c0f-8f00-a8701c15e0d7" valueTypeId="dd9a03d2-236f-4fb9-a0e5-f017969d23e6"/>
+    <managerType typeId="d8214bd3-1b2f-4867-b8c1-f45794727949" valueTypeId="810d8f46-73c9-4848-bc11-b955a7dded5a"/>
+  </producedTypes>
+  <name>Реализация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реализация</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Реализация.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="edcb818e-d7f0-49f0-9839-4abb6b366ecd">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
